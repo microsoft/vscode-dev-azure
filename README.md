@@ -1,14 +1,32 @@
-# Project
+# Bug Bash
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+> Note: You will need to have an active Azure subscription that has been uploaded to AFEC by the team. Please reach out to @meharida
+> to send in your azure sub and get access to this product.
 
-As the maintainer of this project, please make a few updates:
+## Entry points to vscode.dev/azure 
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+> 1. Visit [https://insiders.vscode.dev/azure] directly to start using the product from scratch.
+> 2. If you would like to start with a template, please visit [https://thankful-tree-067d73a10.5.azurestaticapps.net/]. You can click on 'Try Template' to launch into vscode.dev/azure
+
+## Using 
+
+> 1. /azure will connect you to an Azure Cloudshell instance and you should be ready to go automatically.
+> 2. You can run, debug and deploy applications on /azure within the environment
+
+## Limitations
+
+> 1. Docker is not compatible. Any template or project that relies on docker will not work at the moment.
+> 2. Work is not saved. For this private preview, there is no storage account attached to your work, hence, when you quit the session, your work will not be saved.
+> 3. A small lag in loading time at the beginning is expected - please check whether there is a pop-up from VSCode asking you to sign in with Microsoft or GitHub.
+
+# Getting Help & Providing Feedback
+
+Happy to help with any and all questions!
+
+If you have any issues loading the environment or accessing the run, debug, and deploy scenarios please check that you have submitted your Azure subscription to @meharida
+to upload to AFEC. 
+
+Please open any issues that you might have regarding /azure so that we can address them! Happy Coding :) 
 
 ## Contributing
 
