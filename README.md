@@ -2,7 +2,7 @@
 
 vscode.dev/azure is an Azure-specific environment for VS Code for Web.
 
-<img width="1330" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/7907ea43-f8c6-449a-afe0-e444948d29d8">
+<img width="1475" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/7b42685d-2e15-4ce4-afaf-c57d81455036">
 
 ## Entry points
 
