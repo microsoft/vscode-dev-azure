@@ -1,32 +1,33 @@
-# Bug Bash
+# vscode.dev/azure
 
-> Note: You will need to have an active Azure subscription that has been uploaded to AFEC by the team. Please reach out to @meharida
-> to send in your azure sub and get access to this product.
+vscode.dev/azure is an Azure-specific environment for VS Code for Web.
 
-## Entry points to vscode.dev/azure 
+<img width="1330" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/7907ea43-f8c6-449a-afe0-e444948d29d8">
 
-> 1. Visit [https://insiders.vscode.dev/azure] directly to start using the product from scratch.
-> 2. If you would like to start with a template, please visit [https://thankful-tree-067d73a10.5.azurestaticapps.net/]. You can click on 'Try Template' to launch into vscode.dev/azure
+## Entry points
+
+1. Visit [https://insiders.vscode.dev/azure](https://insiders.vscode.dev/azure) directly to start using the product from scratch.
+2. If you would like to start with a template, please visit [our preview version of the awesome-azd website](https://thankful-tree-067d73a10.5.azurestaticapps.net/). You can click on 'Try Template' to launch into vscode.dev/azure. The selected
+
+<img width="1370" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/813a4494-cc1f-408d-8168-8be92feb2bcc">
 
 ## Using 
 
-> 1. /azure will connect you to an Azure Cloudshell instance and you should be ready to go automatically.
-> 2. You can run, debug and deploy applications on /azure within the environment
+vscode.dev/azure will connect you to an Azure Cloud Shell instance. Once connected you can run, debug and deploy applications on vscode.dev/azure. Since the experience is using Azure Cloud Shell, you'll already be authenticated to Azure, and tools like the Azure CLI and AZD come preinstalled.
 
-## Limitations
+## Known Issues and Limitations  
 
-> 1. Docker is not compatible. Any template or project that relies on docker will not work at the moment.
-> 2. Work is not saved. For this private preview, there is no storage account attached to your work, hence, when you quit the session, your work will not be saved.
-> 3. A small lag in loading time at the beginning is expected - please check whether there is a pop-up from VSCode asking you to sign in with Microsoft or GitHub.
+1. The Docker daemon can’t run within Azure Cloud Shell. The Docker CLI is installed, however most operations (docker run, docker build) are not supported. 
+2. Azure Cloud Shell instances that vscode.dev/azure connect to use Ehpemeral storage. Changes to the filesystem aren’t expected to persist between vscode.dev/azure sessions. 
+3. A long initial loading time with a blank VS Code screen is expected. Please check whether there is a pop-up from VS Code asking you to sign in with Microsoft or GitHub. 
 
-# Getting Help & Providing Feedback
+## Filing Issues 
 
-Happy to help with any and all questions!
+Please create issues on this repository as you find them while using vscode.dev/azure.  
 
-If you have any issues loading the environment or accessing the run, debug, and deploy scenarios please check that you have submitted your Azure subscription to @meharida
-to upload to AFEC. 
+## How do I get access to the product? 
 
-Please open any issues that you might have regarding /azure so that we can address them! Happy Coding :) 
+You will need to have an active Azure subscription that has our feature flag added to it. Please reach out to @meharida to send your **Azure subscription ID**.  
 
 ## Contributing
 
