@@ -1,6 +1,6 @@
-# vscode.dev/azure
+# VS Code for the Web - Azure
 
-vscode.dev/azure is an Azure-specific environment for VS Code for Web.
+VS Code for the Web - Azure is an Azure-specific environment for VS Code for Web.
 
 <img width="1475" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/7b42685d-2e15-4ce4-afaf-c57d81455036">
 
