@@ -7,7 +7,7 @@ VS Code for the Web - Azure is an Azure-specific environment for VS Code for Web
 ## Entry points
 
 1. Visit [https://insiders.vscode.dev/azure](https://insiders.vscode.dev/azure) directly to start using the product from scratch.
-2. If you would like to start with a template, please visit [our preview version of the awesome-azd website](https://thankful-tree-067d73a10.5.azurestaticapps.net/). You can click on 'Try Template' to launch into vscode.dev/azure. The selected template will be automatically initialized in your vscode.dev/azure workspace. You can run `azd up` in the terminal to deploy the template to Azure.
+2. If you would like to start with a template, please visit [our preview version of the awesome-azd website](https://aka.ms/vscode-dev-azd-templates). You can click on 'Try Template' to launch into vscode.dev/azure. The selected template will be automatically initialized in your vscode.dev/azure workspace. You can run `azd up` in the terminal to deploy the template to Azure.
 
 <img width="1370" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/813a4494-cc1f-408d-8168-8be92feb2bcc">
 
