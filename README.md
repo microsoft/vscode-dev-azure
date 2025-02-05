@@ -17,13 +17,12 @@ vscode.dev/azure will connect you to an Azure Cloud Shell instance. Once connect
 
 ## Known Issues and Limitations  
 
-1. The Docker daemon can’t run within Azure Cloud Shell. The Docker CLI is installed, however most operations (docker run, docker build) are not supported. 
-2. Azure Cloud Shell instances that vscode.dev/azure connect to use Ehpemeral storage. Changes to the filesystem aren’t expected to persist between vscode.dev/azure sessions. 
-3. A long initial loading time with a blank VS Code screen is expected. Please check whether there is a pop-up from VS Code asking you to sign in with Microsoft or GitHub. 
+1. Azure Cloud Shell instances that vscode.dev/azure connect to use Ehpemeral storage. Changes to the filesystem aren’t expected to persist between vscode.dev/azure sessions. 
+2. A long initial loading time is expected.
 
 ## Filing Issues 
 
-Please create issues on this repository as you find them while using vscode.dev/azure.  
+Please create issues on this repository as you find them while using vscode.dev/azure.
 
 ## How do I get access to the product? 
 
