@@ -1,32 +1,49 @@
 # VS Code for the Web - Azure
 
-VS Code for the Web - Azure is an Azure-specific environment for VS Code for Web.
+VS Code for the Web - Azure is an Azure-specific environment for VS Code for Web that leverages Azure Cloud Shell.
+
+In a nutshell, it's VS Code running from within your Azure Cloud Shell. You can run, debug and deploy Azure applications from the browser. Common Azure tools such as the Azure CLI, Python, and azd are pre-installed.
 
 <img width="1475" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/7b42685d-2e15-4ce4-afaf-c57d81455036">
 
+## How do I get access to the product? 
+
+You will need to have an active Azure subscription that has our feature flag added to it. Please fill out the form at this link to request access: https://aka.ms/VSCodefortheWebAzure
+
 ## Entry points
+
+There are two main ways to use VS Code for the Web - Azure. The first is starting from an azd template from [this template website (https://aka.ms/vscode-dev-azd-templates)](https://aka.ms/vscode-dev-azd-templates). [What is azd?](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/). 
 
 1. If you would like to start with an azd template, please visit [our preview version of the awesome-azd website](https://aka.ms/vscode-dev-azd-templates). You can click on 'Try Template' to launch into vscode.dev/azure. The selected azd template will be automatically initialized in your vscode.dev/azure workspace. You can run `azd up` in the terminal to deploy the template to Azure.
 2. Visit [https://insiders.vscode.dev/azure](https://insiders.vscode.dev/azure) directly to start using the product from scratch.
 
 <img width="1370" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/813a4494-cc1f-408d-8168-8be92feb2bcc">
 
-## Using 
+## Using
 
-vscode.dev/azure will connect you to an Azure Cloud Shell instance. Once connected you can run, debug and deploy applications on vscode.dev/azure. Since the experience is using Azure Cloud Shell, you'll already be authenticated to Azure, and tools like the Azure CLI and AZD come preinstalled.
+### azd template
+
+Whether coming from a template, or starting from scratch, once you reach https://insiders.vscode.dev/azure, you'll be prompted to login with your Azure account. Select "Allow". Make sure to sign in with the account that contains the subscription you provided when signing up.
+
+### Starting from scratch
+
+<img width="608" alt="Image" src="https://github.com/user-attachments/assets/c12b97cf-e182-4cd0-8fe6-b4b1ac42d7d6" />
+<img width="676" alt="Image" src="https://github.com/user-attachments/assets/3fb3fb56-e282-4f49-b9b0-7f754daf8ae6" />
+
+If your account belongs to more than one tenant, you'll be asked to select one. Make sure to select the tenant that contains the subscription you provided when signing up.
+
+<img width="680" alt="Image" src="https://github.com/user-attachments/assets/c0477392-0d98-49e6-a258-2c50be8a036b" />
+
+After signing in and selecting a tenant (if required), you'll start connecting to an Azure Cloud Shell instance. If at this point you see an error saying "No subscription found with Cloud Shell feature registered." it means you haven't been granted access to the private preview. If you see this error and believe it's a mistake, please file an issue and label it as a product access bug.
 
 ## Known Issues and Limitations  
 
-1. Azure Cloud Shell instances that vscode.dev/azure connect to use Ehpemeral storage. Changes to the filesystem aren’t expected to persist between vscode.dev/azure sessions. 
+1. Azure Cloud Shell instances that vscode.dev/azure connect to use Ehpemeral storage. This means changes to the filesystem aren’t expected to persist between different vscode.dev/azure sessions.
 2. A long initial loading time is expected.
 
 ## Filing Issues 
 
-Please create issues on this repository as you find them while using vscode.dev/azure.
-
-## How do I get access to the product? 
-
-You will need to have an active Azure subscription that has our feature flag added to it. Please fill out the form at this link to request access: https://aka.ms/VSCodefortheWebAzure
+Please create issues on this repository as you find them while using vscode.dev/azure. The more detail the better. If possible, please include logs from the "VS Code for the Web - Azure" output channel.
 
 ## Contributing
 
