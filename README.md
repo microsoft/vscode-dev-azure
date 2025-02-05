@@ -10,22 +10,25 @@ In a nutshell, it's VS Code running from within your Azure Cloud Shell. You can 
 
 You will need to have an active Azure subscription that has our feature flag added to it. Please fill out the form at this link to request access: https://aka.ms/VSCodefortheWebAzure
 
-## Entry points
-
-There are two main ways to use VS Code for the Web - Azure. The first is starting from an azd template from [this template website (https://aka.ms/vscode-dev-azd-templates)](https://aka.ms/vscode-dev-azd-templates). [What is azd?](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/). 
-
-1. If you would like to start with an azd template, please visit [our preview version of the awesome-azd website](https://aka.ms/vscode-dev-azd-templates). You can click on 'Try Template' to launch into vscode.dev/azure. The selected azd template will be automatically initialized in your vscode.dev/azure workspace. You can run `azd up` in the terminal to deploy the template to Azure.
-2. Visit [https://insiders.vscode.dev/azure](https://insiders.vscode.dev/azure) directly to start using the product from scratch.
-
-<img width="1370" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/813a4494-cc1f-408d-8168-8be92feb2bcc">
-
 ## Using
+
+There are two main ways to use VS Code for the Web - Azure. Either start with an azd template, or start from scratch with an empty workspace.
 
 ### azd template
 
-Whether coming from a template, or starting from scratch, once you reach https://insiders.vscode.dev/azure, you'll be prompted to login with your Azure account. Select "Allow". Make sure to sign in with the account that contains the subscription you provided when signing up.
+[What is azd?](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/)
+
+If you would like to start with an azd template, please visit [our preview version of the awesome-azd website](https://aka.ms/vscode-dev-azd-templates). You can click on 'Try Template' to launch into vscode.dev/azure. The selected azd template will be automatically initialized in your VS Code for the Web - Azure workspace. You can run `azd up` in the terminal to deploy the template to Azure. 
+
+<img width="1370" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/813a4494-cc1f-408d-8168-8be92feb2bcc">
 
 ### Starting from scratch
+
+You can also use VS Code for the Web - Azure without using an azd template. This will open a blank workspace. To do this, go directly to https://insiders.vscode.dev/azure.
+
+### Logging in
+
+Whether coming from a template, or starting from scratch, once you reach https://insiders.vscode.dev/azure, you'll be prompted to login with your Azure account. Select "Allow". Make sure to sign in with the account that contains the subscription you provided when signing up.
 
 <img width="608" alt="Image" src="https://github.com/user-attachments/assets/c12b97cf-e182-4cd0-8fe6-b4b1ac42d7d6" />
 <img width="676" alt="Image" src="https://github.com/user-attachments/assets/3fb3fb56-e282-4f49-b9b0-7f754daf8ae6" />
