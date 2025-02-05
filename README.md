@@ -37,7 +37,7 @@ If your account belongs to more than one tenant, you'll be asked to select one. 
 
 <img width="680" alt="Image" src="https://github.com/user-attachments/assets/c0477392-0d98-49e6-a258-2c50be8a036b" />
 
-After signing in and selecting a tenant (if required), you'll start connecting to an Azure Cloud Shell instance. If at this point you see an error saying "No subscription found with Cloud Shell feature registered." it means you haven't been granted access to the private preview. If you see this error and believe it's a mistake, please file an issue and label it as a product access bug.
+After signing in and selecting a tenant (if required), you'll start connecting to an Azure Cloud Shell instance. If at this point you see an error saying "Access denied. Account and tenant don't contain an allowed subscription." it means you haven't been granted access to the private preview. If you see this error and believe it's a mistake, please file an issue and label it as a product access bug.
 
 ## Known Issues and Limitations  
 
