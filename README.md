@@ -6,10 +6,6 @@ In a nutshell, it's VS Code running from within your Azure Cloud Shell. You can 
 
 <img width="1475" alt="image" src="https://github.com/microsoft/vscode-azurecontainerapps/assets/12476526/7b42685d-2e15-4ce4-afaf-c57d81455036">
 
-## How do I get access to the product? 
-
-You will need to have an active Azure subscription that has our feature flag added to it. Please fill out the form at this link to request access: https://aka.ms/VSCodefortheWebAzure
-
 ## Using
 
 There are two main ways to use VS Code for the Web - Azure. Either start with an azd template, or start from scratch with an empty workspace.
@@ -42,7 +38,7 @@ After signing in and selecting a tenant (if required), you'll start connecting t
 ## Known Issues and Limitations  
 
 1. Azure Cloud Shell instances that vscode.dev/azure connect to use Ehpemeral storage. This means changes to the filesystem aren’t expected to persist between different vscode.dev/azure sessions.
-2. A long initial loading time is expected.
+2. A long initial loading time is expected. This could be up to 60 seconds.
 
 ## Filing Issues 
 
