@@ -40,6 +40,29 @@ After signing in and selecting a tenant (if required), you'll start connecting t
 1. Azure Cloud Shell instances that vscode.dev/azure connect to use Ehpemeral storage. This means changes to the filesystem aren’t expected to persist between different vscode.dev/azure sessions.
 2. A long initial loading time is expected. This could be up to 60 seconds.
 
+## Troubleshooting
+
+### Account type prompt issue
+
+If you see a prompt asking "What type of account did you use to start this tunnel?" then it's likely that you're on vscode.dev/azure and not **insiders**.vscode.dev/azure. Currently this product is only available on Insiders. To fix this, navigate to https://insiders.vscode.dev/azure. ![image](https://github.com/user-attachments/assets/eb8487fe-c968-4cdb-b28d-c853d71ebcf8)
+
+### Connection issue
+
+If you're unable to connect to insiders.vscode.dev/azure, you can usually fix it by resetting your Azure Cloud Shell. This can be done from the Azure Portal.
+
+1. Open Cloud Shell in the Azure Portal using the button in the top right corner.
+
+![Open Azure Cloud Shell in the Azure Portal](https://github.com/user-attachments/assets/290ac148-8482-4ea6-82ab-3ab7733b9881)
+
+2. Next, in the Settings dropdown, select Reset User Settings.
+
+![Reset user settings](https://github.com/user-attachments/assets/8721515f-00b3-4447-83f1-5fba9bdbbad9)
+
+3. Once finished you should see this screen.
+
+![image](https://github.com/user-attachments/assets/d4dadf26-670e-4803-93eb-f0139dd8db64)
+
+
 ## Filing Issues 
 
 Please create issues on this repository as you find them while using vscode.dev/azure. The more detail the better. If possible, please include logs from the "VS Code for the Web - Azure" output channel.
