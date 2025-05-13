@@ -62,6 +62,13 @@ If you're unable to connect to insiders.vscode.dev/azure, you can usually fix it
 
 ![image](https://github.com/user-attachments/assets/d4dadf26-670e-4803-93eb-f0139dd8db64)
 
+### Gathering logs
+
+The extension logs will help us diagnose any issues with vscode.dev/azure. You can access them by going to the Output view, then selecting the "VS Code for the Web - Azure" output channel.
+
+<img width="522" alt="image" src="https://github.com/user-attachments/assets/5fdbc41c-6446-4739-a467-eb408224a7e5" />
+
+<img width="385" alt="image" src="https://github.com/user-attachments/assets/8604d173-0e93-4541-ad13-ee4c99df4b25" />
 
 ## Filing Issues 
 
